@@ -9,9 +9,7 @@ This project focuses on implementing and automating various **Windows system adm
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Setup and Usage](#setup-and-usage)
-- [Scripts Developed](#scripts-developed)
-- [Findings](#findings)
-- [Acknowledgments](#acknowledgments)
+- [Folder Structure](#folder-structure)
 
 ---
 
@@ -40,8 +38,21 @@ In this project, I worked on securing a **Windows domain environment** by implem
 - **Active Directory**: Managed users, groups, and organizational units (OUs) for secure network access.
 - **Group Policy Manageme
 
-## Setup and Usage
+## Folder Structure
 
+- **scripts/**  
+  Contains PowerShell scripts, including the one for enumerating ACLs (`enum.acls.ps1`).
+
+- **gpo_configurations/**  
+  Contains images and documents related to Group Policy Objects (GPOs), including:
+  - `account_lockout_policies` (description of the account lockout policy configuration).
+  - `GPOs.png` (image showing the Group Policy settings).
+  - `windows_powershell_policies.png` (image showing PowerShell policy configurations).
+
+- **documents/**  
+  Contains additional explanations and documentation related to the GPO configurations and PowerShell logging.
+  
+## Setup and Usage
 ### Prerequisites
 1. A **Windows Server** setup with Active Directory installed.
 2. **Windows 10** machine or virtual environment for testing.
