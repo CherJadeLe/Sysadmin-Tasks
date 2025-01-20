@@ -8,8 +8,9 @@ This project focuses on implementing and automating various **Windows system adm
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
-- [Setup and Usage](#setup-and-usage)
 - [Folder Structure](#folder-structure)
+- [Setup and Usage](#setup-and-usage)
+
 
 ---
 
